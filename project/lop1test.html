@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bắt đầu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/17e19e4432.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a id="logo-a" href="index.html"><img id="logo" src="./imgs/ez math logo.png" alt=""></a>
+        <a href="start.html">
+            <p class="nav-links">Bắt đầu</p>
+        </a>
+        <a href="">
+            <p class="nav-links">Về chúng tôi</p>
+        </a>
+    </nav>
+    <div class="quiz-top-container">
+        <h2 class="quiz-top" id="score">Điểm của bạn:</h2>
+        <h2 class="quiz-top">Toán lớp 1</h2>
+    </div>
+
+    <div class="quiz-color">
+        <section class="quiz-content">
+            <div id="question-title" class="question-title">Câu 1
+                <div id="question-title1" class="question-title1">1+1=mấy</div>
+                <img id="question-img" src="" class="question-title1" style="height: 20%; width: 20%;" alt="">
+            </div>
+            <div class="answers">
+                <div class="answer-container">
+                    <input type="radio" id="cau-A" name="cauHoi" value="true">
+                    <label id="cau-A-" for="cau-A">2</label></div>
+                <div class="answer-container">
+                    <input type="radio" id="cau-B" name="cauHoi" value="false">
+                    <label id="cau-B-" for="cau-B">1</label></div>
+            </div>
+            <div class="answers">
+                <button class="answer-btn orange-btn" id="answerCheck">Trả lời</button>
+                <div class="answer-container">
+                    <input type="radio" id="cau-C" name="cauHoi" value="false">
+                    <label id="cau-C-" for="cau-C">1</label></div>
+                <div class="answer-container">
+                    <input type="radio" id="cau-D" name="cauHoi" value="false">
+                    <label id="cau-D-" for="cau-D">1</label></div>
+            </div>
+            <h2 id="kiem-tra" class="kiem-tra"></h2>
+            <button class="score-btn orange-btn" id="scoreTrack">Tính điểm</button>
+        </section>
+    </div>
+    <section class="footer">
+        <div>
+            <h4 class="footer-title">Liên hệ với chúng tôi:</h4>
+            <p>Sđt: 0123456789</p>
+            <p>Email: ezmath@gmail.com</p>
+        </div>
+        <hr>
+        <div class="footer-2">
+            <h4 class="footer-title">Theo dõi EZMath:</h4>
+            <div>
+                <a href="#"><i class="fab fa-facebook-square"></i>
+                    EZMath</a>
+            </div>
+            <div><a href="#"><i class="fab fa-twitter-square"></i>
+                    EZMath</a>
+            </div>
+            <div><a href="#"><i class="fab fa-instagram-square"></i>
+                    EZMath</a>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h4 class="footer-title"><i class="far fa-copyright"></i> EZMath 2020</h4>
+        </div>
+    </section>
+
+    <script src="quiz.js">
+    </script>
+</body>
+
+</html>
